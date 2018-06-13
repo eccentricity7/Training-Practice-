@@ -19,5 +19,5 @@ function isPrime(numb) {
     return true;
 }
 
-var numb = prompt("Введите число", "10")
-alert(isPrime(numb))
+var numb = prompt("Введите число", "10");
+alert(isPrime(numb));
