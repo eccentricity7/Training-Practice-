@@ -17,20 +17,8 @@ else
     {
         discrim = Math.sqrt(discrim);
         var denom = 2 * a;
-        var nom = 2 * c;
-        var root1, root2;
-        if(b < 0)
-        {
-            root1 = (-b + discrim);
-            root2 = nom / root1;
-            root1 /= denom;
-        }
-        else
-        {
-            root2 = (-b - discrim);
-            root1 = nom / root2;
-            root2 /= denom;
-        }
+        var root1 = (-b + discrim) / denom;
+        var root2 = (-b - discrim) / denom
         alert("Первый корень: "+root1+"\nВторой корень: "+root2);
     }
 }
